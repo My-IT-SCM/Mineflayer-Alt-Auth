@@ -4,10 +4,15 @@
   "description": "Additional authentication method for Mineflayer, specially for EasyMC and Thealtening",
   "main": "index.js",
   "scripts": {
-    "start": "node .",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node ."
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "keywords": ["mineflayer", "alt", "auth", "easymc", "thealtening"],
+  "author": "My IT SCM",
+  "license": "MIT",
+  "dependencies": {
+    "crypto": "^1.0.1",
+    "node-fetch": "^2.7.0",
+    "uuid": "^10.0.0",
+    "uuid-1345": "^1.0.2"
+  }
 }
