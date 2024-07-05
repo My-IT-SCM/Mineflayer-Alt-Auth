@@ -19,18 +19,18 @@ npm install mineflayer mineflayer-alt-auth
 3. Example Usage
 ```js
 const mineflayer = require("mineflayer");
-const authClient = require("auth-client");
+const authClient = require("mineflayer-alt-auth");
 const path = require("path");
 
 const bot = mineflayer.createBot({
-  host: "60.53.184.131",
-  username: "o8mqb-efe6y@alt.com",
+  host: "example.com", // server ip
+  username: "o8mqb-efe6y@alt.com", // alt token
   auth: authClient({
-    cache: true,
-    cacheFile: path.join(__dirname, "./cache.json"),
-    provider: "thealtening",
+    cache: true, // Specify whether do caching for the account, prevent everytime login needs renewal.
+    cacheFile: path.join(__dirname, "./cache.json"), // Cache location
+    provider: "thealtening", // Provider can be 'thealtening' and 'easymc'
   }),
-  version: "1.12.2",
+  version: "1.12.2", // Other arguments same as Mineflayer.creteBot
 });
 
 ```
