@@ -1,9 +1,12 @@
 # Mineflayer-Alt-Auth
+Add additional feature to Mineflayer by adding support for alt accounts. Mineflayer is a Minecraft bot that allows user using predefined script to login and play the Minecraft Server using High Level JavaScript API.
 
 ### Requirements
+- NodeJS LTS
 
 ### Features
-
+- Support for EasyMC authentication
+- Support for The Altening authentication
 
 ### Getting Started
 1. Install dependencies
