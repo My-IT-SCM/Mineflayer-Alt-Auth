@@ -34,3 +34,6 @@ const bot = mineflayer.createBot({
 });
 
 ```
+
+### Contribution
+Feel free to make pull requests and contribute to this project.
