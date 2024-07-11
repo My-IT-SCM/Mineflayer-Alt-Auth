@@ -30,7 +30,7 @@ const bot = mineflayer.createBot({
     cacheFile: path.join(__dirname, "./cache.json"), // Cache location
     provider: "thealtening", // Provider can be 'thealtening' and 'easymc'
   }),
-  version: "1.12.2", // Other arguments same as Mineflayer.creteBot
+  version: "1.12.2", // Other arguments same as Mineflayer.createBot
 });
 
 ```
